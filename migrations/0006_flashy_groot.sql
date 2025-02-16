@@ -1,0 +1,1 @@
+ALTER TABLE "operator" ALTER COLUMN "operatorPolicyId" DROP NOT NULL;

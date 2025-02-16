@@ -1,0 +1,2 @@
+ALTER TABLE "operator" ADD COLUMN "userId" integer NOT NULL;--> statement-breakpoint
+ALTER TABLE "operator" ADD CONSTRAINT "operator_userId_user_userId_fk" FOREIGN KEY ("userId") REFERENCES "public"."user"("userId") ON DELETE cascade ON UPDATE no action;
